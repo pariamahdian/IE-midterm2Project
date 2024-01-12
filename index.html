@@ -7,21 +7,26 @@
         <title>Mr or Ms?</title>
         <link rel="stylesheet" href="style.css">
         <body>
-            <!-- Form -->
+            <!-- creating the Form -->
             <section class="container">
-                <!--left side-->
+             
                     <form action="#">
+                    <!--dividing the form into two part-->
                         <div class="column">
 
+                            <!--left side of the form-->
                             <div class="left-side">
                                 <header>Mr. or Ms.?</header>
+
+                                <!--searching name part-->
                                 <div class="username">
                                     <div class="input-box">
                                         <span class="detailes">Name</span>
                                         <input type="text" required>
                                     </div>
                                 </div>
-        
+
+                                <!--selection part-->
                                 <div class="gender-box">
                                     <div class="gender">
                                         <input type="radio" id="check-male" name="gender" />
@@ -48,13 +53,15 @@
                                           <p>gender</p>
                                           <p>percentage</p>
                                         </div>
+                                    </div>
                                 </div>
 
+                                <!--result from API part-->
                                 <div class="saveAnswer-box">
                                     <header>Saved Answer</header>
                                     <div class="results-content">
                                         <p></p>
-                                      </div>
+                                    </div>
                                     <button type="button" id="clear">Clear</button>
                                 </div>
                             </div>
