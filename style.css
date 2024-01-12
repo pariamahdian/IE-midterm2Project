@@ -1,0 +1,81 @@
+
+/*style of the whole page*/
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(https://htmlcolorcodes.com/assets/images/colors/baby-blue-color-solid-background-1920x1080.png);
+}
+
+/*style of the structure of form*/
+.container{
+    max-width: 750px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+    border-color: black;
+}
+
+/*style of all header in the html file*/
+header{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/*style of the two side of the form and their gap*/
+.column{
+    display: flex;
+    column-gap: 200px;
+}
+
+/*style of the box of input name*/
+.username .input-box {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    border-color: black;
+}
+
+/*space of the gender choices from bottom*/
+.gender-box .gender{
+    margin-bottom: 20px;
+}
+
+/*style of the all the buttons in the program*/
+button {
+    background-color: #fff;
+    border: 1px solid black;
+    border-color: black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin: 10px 0;
+  }
+
+ /*style of the prediction box its dimention*/ 
+.prediction-box {
+    width: 150px; 
+    height: 70px; 
+    background-color: #fff;
+  }
+
+/*margin-top declare the space of box from the top*/
+.saveAnswer-box{
+    margin-top: 50px;
+    border: 2px dotted #9b9898;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+  

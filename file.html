@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" con="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mr or Ms?</title>
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <!-- Form -->
+            <section class="container">
+                <!--left side-->
+                    <form action="#">
+                        <div class="column">
+
+                            <div class="left-side">
+                                <header>Mr. or Ms.?</header>
+                                <div class="username">
+                                    <div class="input-box">
+                                        <span class="detailes">Name</span>
+                                        <input type="text" required>
+                                    </div>
+                                </div>
+        
+                                <div class="gender-box">
+                                    <div class="gender">
+                                        <input type="radio" id="check-male" name="gender" />
+                                        <label for="check-male">Male</label>
+                                    </div> 
+                                    <div class="gender">
+                                        <input type="radio" id="check-female" name="gender" />
+                                        <label for="check-female">Female</label>
+                                    </div>
+                                </div>
+        
+                                <div class="button-box">
+                                    <button type="button">Submit</button>
+                                    <button type="button">Save</button>
+                                </div>
+                            </div>
+
+                            <!--right side of the form-->
+                            <div class="right-side">
+                                <div class="prediction-box">
+                                    <header>Prediction</header>
+                                    <div class="results-box">
+                                        <div class="results-content">
+                                          <p>gender</p>
+                                          <p>percentage</p>
+                                        </div>
+                                </div>
+
+                                <div class="saveAnswer-box">
+                                    <header>Saved Answer</header>
+                                    <div class="results-content">
+                                        <p></p>
+                                      </div>
+                                    <button type="button" id="clear">Clear</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </form>
+                </div>
+            </section>
+
+            <script src="script.js"></script>
+        </body>
+    </head>
+</html>
