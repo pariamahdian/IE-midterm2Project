@@ -1,2 +1,2 @@
 website can be visited from this address:
-https://<pariamahdian>.github.io/<web-midtermPrj2>
+https://<pariamahdian>.github.io/<WebProgramming-midterm2Prj>
